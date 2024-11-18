@@ -16,8 +16,8 @@ const WidgetBotCrate: React.FC = () => {
     script.onload = () => {
       if (window.Crate) {
         new window.Crate({
-          server: "1237477288249921638", // Lost in EDiTH
-          channel: "1237477288996638728", // #townhall
+          server: "1237477288249921638", // Server ID
+          channel: "1237477288996638728", // channel ID
         });
       } else {
         console.error("Crate library failed to load.");
